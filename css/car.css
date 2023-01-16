@@ -1,0 +1,106 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  background-color: #232324;
+}
+
+.coverImage {
+  /* display: absolute; */
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  /* background-image:url('pierre-gui-3IR3fozccY8-unsplash.jpg'); */
+  background-repeat:no-repeat;
+  background-size:contain;
+  background-position:center;
+}
+
+.welcomeText{
+  font-family: Ubuntu;
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  color: white;
+  font-size: 3vw;
+}
+button{
+  width: 250px;
+  height: 75px;
+  border-radius: 5vh;
+  background-color: black;
+  color:  #4db8ff;
+  border-color:  #4db8ff;
+  font-size: 1.5vw;
+  font-family: Ubuntu;
+}
+button:hover{
+  color: white;
+  border-color: white;
+}
+.toRelative{
+  padding: 50px 100px 0 100px;
+}
+.infoText{
+  width: 100%;
+  font-family: arial;
+  font-family: "Open Sans";
+  color: white;
+  letter-spacing: .5px;
+  line-height: 1.8;
+}
+.cars{
+  max-width: 100%;
+  /* height: 500px; */
+  text-align: center;
+}
+footer{
+  background-color: #19191a;
+}
+.footerRelative{
+  position: relative;
+  width: 100%;
+  height: 200px;
+  padding: 50px 100px
+}
+.myFooter{
+  position: absolute;
+  width: 50%;
+  height: auto;
+}
+.muUL{
+  /* list-style-type: none; */
+  margin: 0;
+  padding: 0;
+}
+.Newsletters{
+  margin-bottom: 1px;
+  width: 150px;
+  height: 50px;
+  color: white
+}
+.Atags{
+  text-decoration: none;
+  color: white;
+  font-family: 'Open Sans';
+  letter-spacing: .5px;
+  line-height: 1.8;
+}
+.Atags:hover{
+
+}
+.socialMedia{
+    position: absolute;
+    width: 50%;
+    height: auto;
+    right: 0;
+    letter-spacing: .5px;
+    line-height: 1.8;
+}
+.copyRight{
+  width: 100%;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  font-family: 'Open Sans';
+  letter-spacing: .5px;
+  line-height: 1.8;
+}
